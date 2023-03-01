@@ -49,6 +49,11 @@ p {
 footer {
   font-size: 9px;
 }
+footer a {
+  color: forestgreen;
+  opacity: 65%;
+  text-decoration: none;
+}
 .header-banner {
   height: 191px;
   width: 1128px;
