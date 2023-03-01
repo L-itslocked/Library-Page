@@ -29,9 +29,10 @@ a:hover {
   color: pink;
   transition: 400ms ease-in-out;
 }
-footer {
-  font-size: 9px;
+img {
+  border-radius: 5px;
 }
+
 blockquote {
   display: block;
   margin: 0 auto;
@@ -45,6 +46,9 @@ p {
   justify-content: center;
 }
 
+footer {
+  font-size: 9px;
+}
 .header-banner {
   height: 191px;
   width: 1128px;
