@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.searchbar {
+  display: block;
+  margin: 25px 25% 50px;
+  border: 1px orange dotted;
+}
+.search-input {
+  padding: 0 150px 0 5px;
+  border-radius: 1.5px;
+}
