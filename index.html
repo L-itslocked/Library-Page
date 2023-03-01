@@ -20,68 +20,69 @@
   </head>
   <body>
     <header>
-      <h1>Celestial Library</h1>
       <nav>
-        <div class="flex-container">
+        <h1 class="header-nav-title">Celestial Library</h1>
+        <div class="flex-container header-nav-menu">
           <ul>
             <li><a href="#">home</a></li>
             <li><a href="#">catalog</a></li>
             <li><a href="#">archives</a></li>
             <li><a href="#">library basics</a></li>
+            <li><a href="#">get a library card</a></li>
           </ul>
         </div>
+        <img
+          src="images/sailboatstarrynight.jpg"
+          class="img-fluid header-banner"
+          alt="sail boat exploring a starry night"
+        />
       </nav>
     </header>
     <main>
-      <img
-        src="images/sailboatstarrynight.jpg"
-        class="img-fluid"
-        alt="sail boat exploring a starry night"
-      />
-      <div class="container searchbar">
-        <div class="row">
-          <div class="col">
-            <h3>Library Catalog</h3>
-            <ul>
-              <li>title</li>
-              <li>author</li>
-              <li>publication date</li>
-              <li>isbn</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <form>
-              <input
-                type="text"
-                placeholder="Search by Title"
-                required
-                minlength="2"
-                class="search-input"
-              />
-              <input type="submit" value="Search" />
-            </form>
+      <q> Dream, explore, discover </q>
+      <div class="container">
+        <div class="container searchbar">
+          <div class="row-md-12">
+            <div class="col-md-12">
+              <h5 class="text-center">Library Catalog</h5>
+              <p>Search the catalog by
+              <form>
+                <select id="searchbar-search" name="searchbar-search">
+                  <option value="title">title</option>
+                  <option value="author">author</option>
+                  <option value="date">publication date</option>
+                  <option value="keyword">keyword</option>
+                  <option value="isbn">isbn</option>
+                </select>
+              </form>
+              by
+              <form>
+                <input
+                  type="text"
+                  placeholder="search library catalog"
+                  required
+                  minlength="2"
+                  class="search-input"
+                />
+                <input type="submit" value="Search" />
+              </form>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <quote>
-        <em>Dream, explore, discover</em>
-      </quote>
     </main>
     <nav class="navbar fixed-bottom">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <footer>
-            <p>
-              Open-source code on
-              <a href="#" target="_blank">Github</a>
-              and hosted on
-              <a href="#" target="_blank">Netlify</a>
-              by Laura Doyon
-            </p>
-          </footer>
-        </a>
+        <footer>
+          <p>
+            Open-source code on
+            <a href="#" target="_blank">Github</a>
+            and hosted on
+            <a href="#" target="_blank">Netlify</a>
+            by Laura Doyon
+          </p>
+        </footer>
       </div>
     </nav>
   </body>
