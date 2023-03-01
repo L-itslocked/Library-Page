@@ -24,11 +24,11 @@
         <h1 class="header-nav-title">Celestial Library</h1>
         <div class="flex-container header-nav-menu">
           <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">catalog</a></li>
-            <li><a href="#">archives</a></li>
-            <li><a href="#">library basics</a></li>
-            <li><a href="#">get a library card</a></li>
+            <li><a href="#">home </a>•</li>
+            <li><a href="#catalog">catalog </a>•</li>
+            <li><a href="#">newletter </a>•</li>
+            <li><a href="#">about </a>•</li>
+            <li><a href="#">get a library card </a></li>
           </ul>
         </div>
         <img
@@ -38,14 +38,13 @@
         />
       </nav>
     </header>
-    <main>
-      <q> Dream, explore, discover </q>
-      <div class="container">
-        <div class="container searchbar">
+    <div class="container">
+      <main>
+        <div class="container searchbar shadow" id="catalog">
           <div class="row-md-12">
             <div class="col-md-12">
               <h5 class="text-center">Library Catalog</h5>
-              <p>Search the catalog by
+              <p>Search the catalog by</p>
               <form>
                 <select id="searchbar-search" name="searchbar-search">
                   <option value="title">title</option>
@@ -54,9 +53,6 @@
                   <option value="keyword">keyword</option>
                   <option value="isbn">isbn</option>
                 </select>
-              </form>
-              by
-              <form>
                 <input
                   type="text"
                   placeholder="search library catalog"
@@ -66,12 +62,34 @@
                 />
                 <input type="submit" value="Search" />
               </form>
-              </p>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <section class="section-1 d-flex justify-content-md-around">
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="images/mysticalwoodsday.jpg"
+              alt="mystical woods during the day"
+              width="200"
+              height="250"
+            />
+          </div>
+          <div class="col-4">
+            <blockquote class="section-1-text">Dream, explore, discover</blockquote>
+          </div>
+          <div class="col-4">
+            <img
+              src="images/woodsdaybreak.jpg"
+              alt="woods at daybreak"
+              width="200"
+              height="250"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
     <nav class="navbar fixed-bottom">
       <div class="container-fluid">
         <footer>
