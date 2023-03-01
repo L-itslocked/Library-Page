@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Celestial Library | Homepage</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <header>
       <h1>Celestial Library</h1>
       <nav>
-        <ul>
-          <li>home</li>
-          <li>catalog</li>
-          <li>archives</li>
-          <li>library basics</li>
-        </ul>
+        <div class="flex-container">
+          <ul>
+            <li>home</li>
+            <li>catalog</li>
+            <li>archives</li>
+            <li>library basics</li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <div class="container">
+      <div class="container searchbar">
         <div class="row">
           <div class="col">
+            <h3>Library Catalog</h3>
             <ul>
               <li>title</li>
               <li>author</li>
@@ -33,7 +37,13 @@
         <div class="row">
           <div class="col">
             <form>
-              <input type="text" placeholder="Search" required minlength="2" />
+              <input
+                type="text"
+                placeholder="Search by Title"
+                required
+                minlength="2"
+                class="search-input"
+              />
               <input type="submit" value="Search" />
             </form>
           </div>
