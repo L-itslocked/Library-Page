@@ -15,8 +15,9 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Celestial Library | Homepage</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <header>
@@ -59,8 +60,9 @@
                   required
                   minlength="2"
                   class="search-input"
+                  id="search-input"
                 />
-                <input type="submit" value="Search" />
+                <input type="submit" value="Search" id="submit" />
               </form>
             </div>
           </div>
@@ -77,7 +79,7 @@
             />
           </div>
           <div class="col-4">
-            <blockquote class="section-1-text">
+            <blockquote class="section-1-text" id="display-book">
               Dream, explore, discover
             </blockquote>
           </div>
@@ -109,5 +111,6 @@
         </footer>
       </div>
     </nav>
+    <script src="src/script.js"></script>
   </body>
 </html>
