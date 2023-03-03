@@ -1,0 +1,82 @@
+header {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 25px auto;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  margin: 0 5px;
+  letter-spacing: 0.25em;
+  word-spacing: 0.5rem;
+}
+nav li a {
+  color: black;
+  opacity: 75%;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 15px;
+  color: pink;
+  transition: 400ms ease-in-out;
+}
+img {
+  border-radius: 5px;
+}
+
+blockquote {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+form,
+p {
+  font-size: 12px;
+  display: inline-block;
+  justify-content: center;
+}
+
+footer {
+  font-size: 9px;
+}
+footer a {
+  color: forestgreen;
+  opacity: 65%;
+  text-decoration: none;
+}
+.header-banner {
+  height: 191px;
+  width: 1128px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 60% 60%;
+}
+.searchbar {
+  margin: 10px auto;
+  border: 1px black solid;
+  padding: 20px;
+}
+.search-input {
+  font-size: 12px;
+}
+.section-1 {
+  display: inline-block;
+  margin: 25px auto;
+  padding: 10px;
+}
+.section-1-text {
+  text-align: center;
+  padding: 50% 0;
+  font-weight: bold;
+  font-size: 20px;
+}
