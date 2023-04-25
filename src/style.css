@@ -80,3 +80,13 @@ footer a {
   font-weight: bold;
   font-size: 20px;
 }
+@media (min-width: 1250px) {
+  .searchbar {
+    width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  /* .section-1 {
+    justify-content: center;
+  } this isn't responding - look into this; should be vertical centered */
+}
